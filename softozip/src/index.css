@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* bg image */
+body{
+    height: 100vh;
+}
+.bg-image{
+    background: url("images/Asset 1@4x 1.png");
+    height: 800px;
+}
+
+.bg-card{
+    background: url("images/Asset 1@4x 1.png");
+    height: 600px;
+}
+
+.bg-Size img{
+    max-width: none;
+}
+
+.line-div{ 
+    text-align: -webkit-center;
+    margin: 60px auto;
+}
+
+.footer-bg{
+    background: linear-gradient(94deg, rgba(179, 58, 231, 0.10) 0%, rgba(216.29, 15.47, 255, 0.10) 100%)
+}

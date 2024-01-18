@@ -1,12 +1,11 @@
 import Products from "src/container/products";
 import Home from "src/container/Home";
-import Blogs from "src/container/Home/blogs";
 
 // UnAuthenticatedRoutes
 export const unAuthenticatedRoutesConstant = {
   PRODUCTS: "/products",
-  HOME: "/home",
-  BLOGS:"/"
+  HOME: "/"
+
 };
 
 export const UNAUTHENTICATED_ROUTES = [
@@ -17,10 +16,6 @@ export const UNAUTHENTICATED_ROUTES = [
   {
     path: unAuthenticatedRoutesConstant.HOME,
     element: <Home />,
-  },
-  {
-    path: unAuthenticatedRoutesConstant.BLOGS,
-    element: <Blogs />,
   },
 ];
 

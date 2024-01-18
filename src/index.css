@@ -1,3 +1,99 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* bg image */
+body {
+    height: 100vh;
+}
+
+.bg-image {
+    background: url("images/Asset 1@4x 1.png");
+    height: 900px;
+}
+
+.bg-card {
+    background: url("images/Asset 1@4x 1.png");
+    height: 600px;
+}
+
+.bg-Size img {
+    max-width: none;
+}
+
+.line-div {
+    text-align: -webkit-center;
+    margin: 60px auto;
+}
+
+.footer-bg {
+    background: linear-gradient(94deg, rgba(179, 58, 231, 0.10) 0%, rgba(216.29, 15.47, 255, 0.10) 100%)
+}
+
+.ant-drawer .ant-drawer-content {
+    background: #341839;
+}
+
+.ant-drawer .ant-drawer-title {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.anticon {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.bg-smog {
+    background: linear-gradient(180deg, transparent, #18181B 100%);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-text {
+    font-size: 1.3rem;
+}
+
+.primary_btn {
+
+    background: linear-gradient(180deg, #fffaf3 -14.36%, #341839 72.37%, #fffaf3 103.74%);
+    opacity: 0;
+    transition: opacity .4s;
+    z-index: -1;
+}
+
+
+.ant-input-affix-wrapper>input.ant-input {
+    padding-left: 5px;
+    background: #222222;
+    border: none;
+    color: #717374 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+    padding-left: 15px;
+}
+
+.ant-input-affix-wrapper:focus-within {
+    border-color: #717374;
+    box-shadow: none;
+}
+
+
+.ant-select-selection-placeholder,
+.ant-input::placeholder {
+    color: #717374 !important;
+    font-size: 20px !important;
+    font-weight: 600;
+}
+
+
+.line1 {
+    border:#ffffff26 ;
+    height: 1px;
+    width: 100%;
+    }
+
+
